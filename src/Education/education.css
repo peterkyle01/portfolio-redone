@@ -28,7 +28,7 @@
 }
 
 .university_map,.high_school_map{
-  flex: 2;
+  flex: 1;
   padding: .2rem;
 }
 

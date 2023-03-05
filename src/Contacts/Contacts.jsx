@@ -22,7 +22,7 @@ function Contacts() {
         </label>
         <div>
           <MdSend id="icon_send" color="black" size={30} />
-          <a href="tel:+25458685974">
+          <a aria-label="Telephone" href="tel:+25458685974">
             <FiPhoneCall id="icon_call" color="black" size={25} />
           </a>
         </div>
