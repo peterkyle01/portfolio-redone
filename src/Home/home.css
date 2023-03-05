@@ -1,0 +1,89 @@
+.background {
+  width: 100%;
+  height: auto;
+  padding: 5rem auto;
+}
+
+.home {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  margin-top: 3rem;
+  background-color: var(--color1);
+}
+
+.text_box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  position: relative;
+}
+
+.p_one {
+  font-size: 1.6rem;
+}
+
+.p_two {
+  margin: 0.5rem;
+  font-size: 4rem;
+}
+
+.btn_wrapper {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects_btn {
+  cursor: pointer;
+  padding: 0.7rem 3rem;
+  margin: auto 0.5rem;
+  background-color: var(--color2);
+  color: var(--primary);
+}
+
+.linkedIn_btn {
+  cursor: pointer;
+  padding: 0.7rem 3rem;
+  margin: auto 0.5rem;
+  background-color: transparent;
+}
+
+button {
+  border: 0.13rem solid var(--color2);
+}
+
+.profile_pic_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.profile_pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 30rem;
+  justify-content: center;
+  background: url("../Images/home.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+  .profile_pic_wrapper {
+    display: none;
+  }
+  .linkedIn_btn,.projects_btn{
+    margin: .5rem;
+    padding: 0.7rem 2.5rem;
+  }
+}
