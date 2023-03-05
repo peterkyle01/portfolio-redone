@@ -1,5 +1,6 @@
 import {lazy, Suspense} from 'react'
 import { NavLink } from 'react-router-dom';
+import { motion } from 'framer-motion';
 import Spinner from '../components/Spinner/Spinner';
 const Education = lazy(() => import("../Education/Education"));
 const Experience = lazy(() => import("../Experience/Experience"));
@@ -18,7 +19,7 @@ function Home() {
           </p>
           <p className="p_two">Software Developer</p>
           <div className="btn_wrapper">
-            <NavLink to="/projects" >
+            <NavLink to="/projects">
               <button className="projects_btn">Projects</button>
             </NavLink>
             <a
@@ -30,7 +31,22 @@ function Home() {
           </div>
         </div>
         <div className="profile_pic_wrapper">
-          <div className="profile_pic"></div>
+          <motion.div
+            initial={{ opacity: 0, scale: 0.5 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{
+              default: {
+                duration: 0.3,
+                ease: [0, 0.71, 0.2, 1.01],
+              },
+              scale: {
+                type: "spring",
+                damping: 5,
+                stiffness: 100,
+                restDelta: 0.001,
+              },
+            }}
+            className="profile_pic"></motion.div>
         </div>
       </section>
       <Suspense fallback={<Spinner />}>
