@@ -24,7 +24,7 @@ li a {
 }
 
 .logo h1{
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 .ul_navbar {
   list-style: none;
@@ -36,8 +36,15 @@ li a {
 }
 
 .li_navbar a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   transition: all 0.3s ease 0s;
   color: var(--primary);
+}
+
+.li_navbar p{
+  padding-left: .25rem;
 }
 
 @media (max-width: 768px) {
@@ -53,8 +60,8 @@ li a {
 
   .menu_responsive {
     position: relative;
-    margin-top:17rem;
-    width: 40%;
+    margin-top:13rem;
+    width: 50%;
     height: auto;
     top: 5rem;
     display: flex;
@@ -62,6 +69,7 @@ li a {
     flex-direction: row;
     align-items: center;
     z-index: 100;
+    border-radius: 2rem;
   }
   .ul_navbar_responsive {
     width: 100%;
@@ -79,6 +87,16 @@ li a {
 
   .li_navbar_responsive{
     color: var(--primary);
+  }
+
+  .li_navbar_responsive span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .li_navbar_responsive span p{
+    padding-left: .5rem;
   }
 
 }

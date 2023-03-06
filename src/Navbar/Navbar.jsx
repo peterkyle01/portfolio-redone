@@ -1,6 +1,11 @@
 import { NavLink } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { AiFillHome, AiOutlineQuestion } from "react-icons/ai";
+import { SiMicrosoftacademic } from "react-icons/si";
+import {GiSkills} from "react-icons/gi"
+import { MdOutlineWork, MdContactMail } from "react-icons/md";
+import { motion } from "framer-motion";
 import { useState } from "react";
 import "./navbar.css";
 
@@ -24,31 +29,39 @@ function Navbar() {
       <nav className="menu">
         <ul className="ul_navbar">
           <li className="li_navbar">
-            <NavLink to="/">Home</NavLink>
+            <NavLink to="/">
+              <AiFillHome />
+              <p>Home</p>
+            </NavLink>
           </li>
           <li className="li_navbar">
             <HashLink smooth to="/#Education">
-              Education
+              <SiMicrosoftacademic />
+              <p>Education</p>
             </HashLink>
           </li>
           <li className="li_navbar">
             <HashLink smooth to="/#Experience">
-              Experience
+              <MdOutlineWork />
+              <p>Experience</p>
             </HashLink>
           </li>
           <li className="li_navbar">
             <HashLink smooth to="/#Skills">
-              Skills
+              <GiSkills />
+              <p>Skills</p>
             </HashLink>
           </li>
           <li className="li_navbar">
             <HashLink smooth to="/#About">
-              About
+              <AiOutlineQuestion />
+              <p>About</p>
             </HashLink>
           </li>
           <li className="li_navbar">
             <HashLink smooth to="/#Contacts">
-              Contacts
+              <MdContactMail />
+              <p>Contacts</p>
             </HashLink>
           </li>
         </ul>
@@ -56,53 +69,77 @@ function Navbar() {
       {menu ? (
         " "
       ) : (
-        <nav className="menu_responsive">
+        <motion.nav
+          animate={{ scale: [0.5, 1.5,0.75,1.25,0.9,1.05,1] }}
+          transition={{
+            duration: 1.5,
+
+          }}
+          className="menu_responsive">
           <ul className="ul_navbar_responsive">
             <NavLink to="/">
               {" "}
               <li
                 className="li_navbar_responsive"
                 onClick={() => setMenu(true)}>
-                Home
+                <span>
+                  <AiFillHome />
+                  <p>Home</p>
+                </span>
               </li>
             </NavLink>
             <HashLink smooth to="/#Education">
               <li
                 className="li_navbar_responsive"
                 onClick={() => setMenu(true)}>
-                Education
+                <span>
+                  <SiMicrosoftacademic />
+                  <p>Education</p>
+                </span>
               </li>
             </HashLink>
             <HashLink smooth to="/#Experience">
               <li
                 className="li_navbar_responsive"
                 onClick={() => setMenu(true)}>
-                Experience
+                <span>
+                  <MdOutlineWork />
+                  <p>Experience</p>
+                </span>
               </li>
             </HashLink>
             <HashLink smooth to="/#Skills">
               <li
                 className="li_navbar_responsive"
                 onClick={() => setMenu(true)}>
-                Skills
+                <span>
+                  <GiSkills />
+                  <p>Skills</p>
+                </span>
               </li>
             </HashLink>
             <HashLink smooth to="/#About">
               <li
                 className="li_navbar_responsive"
                 onClick={() => setMenu(true)}>
-                About
+                <span>
+                  <AiOutlineQuestion />
+                  <p>About</p>
+                </span>
               </li>
             </HashLink>
             <HashLink smooth to="/#Contacts">
               <li
                 className="li_navbar_responsive"
                 onClick={() => setMenu(true)}>
-                Contacts
+                <span>
+                  <MdContactMail />
+                  <p>Contacts</p>
+                </span>
               </li>
             </HashLink>
           </ul>
-        </nav>
+        </motion.nav>
       )}
     </header>
   );
