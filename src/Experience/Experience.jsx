@@ -14,8 +14,8 @@ function Experience() {
             <h1>IT Software Technician</h1>
             <i>APPRENTISHIP</i>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam,
-              illo!
+              Lead junior technicians in troubleshooting, installation and configuration of software.
+              Testing software as well as deployment, documentation and providing technical support.
             </p>
           </div>
         </div>
@@ -28,8 +28,7 @@ function Experience() {
             <h1>Web Designer</h1>
             <i>VOLUNTEER</i>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam,
-              illo!
+              Designed Nairobi Website Profile page from login/register page to payment page.
             </p>
           </div>
         </div>
@@ -42,8 +41,7 @@ function Experience() {
             <h1>TUTORING</h1>
             <i>VOLUNTEER</i>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam,
-              illo!
+              Tutored KCA students various programming languages like Java,Python,Javascript,HTML,CSS and React js.
             </p>
           </div>
         </div>
