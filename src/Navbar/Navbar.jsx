@@ -29,10 +29,10 @@ function Navbar() {
       <nav className="menu">
         <ul className="ul_navbar">
           <li className="li_navbar">
-            <NavLink to="/">
+            <HashLink smooth to="/#Home">
               <AiFillHome />
               <p>Home</p>
-            </NavLink>
+            </HashLink>
           </li>
           <li className="li_navbar">
             <HashLink smooth to="/#Education">
@@ -77,7 +77,7 @@ function Navbar() {
           }}
           className="menu_responsive">
           <ul className="ul_navbar_responsive">
-            <NavLink to="/">
+            <HashLink smooth to="/#Home">
               {" "}
               <li
                 className="li_navbar_responsive"
@@ -87,7 +87,7 @@ function Navbar() {
                   <p>Home</p>
                 </span>
               </li>
-            </NavLink>
+            </HashLink>
             <HashLink smooth to="/#Education">
               <li
                 className="li_navbar_responsive"

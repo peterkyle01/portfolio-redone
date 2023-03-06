@@ -12,7 +12,7 @@ import "./home.css"
 function Home() {
   return (
     <main className="background">
-      <section className="home">
+      <section className="home" id="Home">
         <div className="text_box">
           <p className="p_one">
             Hello,my name is Peter <br /> K.Mwangi
