@@ -1,5 +1,5 @@
 .contacts {
-  width: 95%;
+  width: 90%;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -9,11 +9,6 @@
   background-color: var(--color4);
 }
 
-.contacts_header {
-  font-size: 2rem;
-  letter-spacing: 0.15rem;
-}
-
 .contacts_text_box{
   width: 100%;
   height: 100%;
@@ -21,6 +16,10 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.contacts_text_box h1{
+  padding: 1rem;
 }
 
 label {

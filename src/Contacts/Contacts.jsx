@@ -5,7 +5,6 @@ import "./contacts.css";
 function Contacts() {
   return (
     <section className="contacts" id="Contacts">
-      <h1 className="contacts_header">Contact Me</h1>
       <div className="contacts_text_box">
         <h1>Send Me A Message</h1>
         <label className="name_label">

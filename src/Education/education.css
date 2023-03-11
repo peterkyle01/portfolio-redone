@@ -27,13 +27,6 @@
   flex-direction: column;
 }
 
-.university_map,.high_school_map{
-  width: 100%;
-  height: 100%;
-  flex: 1;
-  padding: .2rem;
-}
-
 .university_text_box,.high_school_text_box{
   width: 100%;
   flex: 1;

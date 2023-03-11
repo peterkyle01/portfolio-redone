@@ -5,13 +5,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 3rem auto;
+  margin: 2rem auto;
   box-shadow: 0 0 8px var(--secondary);
 }
 
 .about_header {
   font-size: 2rem;
   letter-spacing: 0.15rem;
+}
+
+.about_box{
+  width: 100%;
+  height: auto;
+  display: flex;
 }
 
 .about_text_box {
@@ -21,11 +27,24 @@
   justify-content: center;
   align-items: center;
   padding: 3rem;
+  flex: 2;
+}
+
+.spacer{
+  flex: 1;
+  display: flex;
+  justify-content: center;
 }
 
 @media (min-width:768px) {
   .about_text_box p{
     font-size: 1.2rem;
     line-height: 2rem;
+  }
+}
+
+@media (max-width:768px) {
+  .about_box{
+    flex-direction: column;
   }
 }

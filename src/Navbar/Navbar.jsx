@@ -3,8 +3,8 @@ import { HashLink } from "react-router-hash-link";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { AiFillHome, AiOutlineQuestion } from "react-icons/ai";
 import { SiMicrosoftacademic } from "react-icons/si";
-import {GiSkills} from "react-icons/gi"
-import { MdOutlineWork, MdContactMail } from "react-icons/md";
+import { GiSkills } from "react-icons/gi";
+import { MdOutlineWork } from "react-icons/md";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import "./navbar.css";
@@ -58,22 +58,15 @@ function Navbar() {
               <p>About</p>
             </HashLink>
           </li>
-          <li className="li_navbar">
-            <HashLink smooth to="/#Contacts">
-              <MdContactMail />
-              <p>Contacts</p>
-            </HashLink>
-          </li>
         </ul>
       </nav>
       {menu ? (
         " "
       ) : (
         <motion.nav
-          animate={{ scale: [0.5, 1.5,0.75,1.25,0.9,1.05,1] }}
+          animate={{ scale: [0.5, 1.5, 0.75, 1.25, 0.9, 1.05, 1] }}
           transition={{
             duration: 1.5,
-
           }}
           className="menu_responsive">
           <ul className="ul_navbar_responsive">
@@ -125,16 +118,6 @@ function Navbar() {
                 <span>
                   <AiOutlineQuestion />
                   <p>About</p>
-                </span>
-              </li>
-            </HashLink>
-            <HashLink smooth to="/#Contacts">
-              <li
-                className="li_navbar_responsive"
-                onClick={() => setMenu(true)}>
-                <span>
-                  <MdContactMail />
-                  <p>Contacts</p>
                 </span>
               </li>
             </HashLink>

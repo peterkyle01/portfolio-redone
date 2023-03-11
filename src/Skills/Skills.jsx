@@ -46,34 +46,6 @@ function Skills() {
           whileTap={{ scale: 0.9 }}
           transition={{ type: "spring", stiffness: 700, damping: 10 }}
           className="programming_icon">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg" />
-        </motion.div>
-        <motion.div
-          whileHover={{ scale: 1.2 }}
-          whileTap={{ scale: 0.9 }}
-          transition={{ type: "spring", stiffness: 700, damping: 10 }}
-          className="programming_icon">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original-wordmark.svg" />
-        </motion.div>
-        <motion.div
-          whileHover={{ scale: 1.2 }}
-          whileTap={{ scale: 0.9 }}
-          transition={{ type: "spring", stiffness: 700, damping: 10 }}
-          className="programming_icon">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-plain-wordmark.svg" />
-        </motion.div>
-        <motion.div
-          whileHover={{ scale: 1.2 }}
-          whileTap={{ scale: 0.9 }}
-          transition={{ type: "spring", stiffness: 700, damping: 10 }}
-          className="programming_icon">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original-wordmark.svg" />
-        </motion.div>
-        <motion.div
-          whileHover={{ scale: 1.2 }}
-          whileTap={{ scale: 0.9 }}
-          transition={{ type: "spring", stiffness: 700, damping: 10 }}
-          className="programming_icon">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" />
         </motion.div>
         <motion.div
@@ -82,13 +54,6 @@ function Skills() {
           transition={{ type: "spring", stiffness: 700, damping: 10 }}
           className="programming_icon">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" />
-        </motion.div>
-        <motion.div
-          whileHover={{ scale: 1.2 }}
-          whileTap={{ scale: 0.9 }}
-          transition={{ type: "spring", stiffness: 700, damping: 10 }}
-          className="programming_icon">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" />
         </motion.div>
         <motion.div
           whileHover={{ scale: 1.2 }}
@@ -123,14 +88,14 @@ function Skills() {
           whileTap={{ scale: 0.9 }}
           transition={{ type: "spring", stiffness: 700, damping: 10 }}
           className="programming_icon">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" />
         </motion.div>
         <motion.div
           whileHover={{ scale: 1.2 }}
           whileTap={{ scale: 0.9 }}
           transition={{ type: "spring", stiffness: 700, damping: 10 }}
           className="programming_icon">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
         </motion.div>
         <motion.div
           whileHover={{ scale: 1.2 }}
@@ -158,13 +123,6 @@ function Skills() {
           whileTap={{ scale: 0.9 }}
           transition={{ type: "spring", stiffness: 700, damping: 10 }}
           className="programming_icon">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" />
-        </motion.div>
-        <motion.div
-          whileHover={{ scale: 1.2 }}
-          whileTap={{ scale: 0.9 }}
-          transition={{ type: "spring", stiffness: 700, damping: 10 }}
-          className="programming_icon">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" />
         </motion.div>
         <motion.div
@@ -172,7 +130,28 @@ function Skills() {
           whileTap={{ scale: 0.9 }}
           transition={{ type: "spring", stiffness: 700, damping: 10 }}
           className="programming_icon">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain-wordmark.svg" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+        </motion.div>
+        <motion.div
+          whileHover={{ scale: 1.2 }}
+          whileTap={{ scale: 0.9 }}
+          transition={{ type: "spring", stiffness: 700, damping: 10 }}
+          className="programming_icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" />
+        </motion.div>
+        <motion.div
+          whileHover={{ scale: 1.2 }}
+          whileTap={{ scale: 0.9 }}
+          transition={{ type: "spring", stiffness: 700, damping: 10 }}
+          className="programming_icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" />
+        </motion.div>
+        <motion.div
+          whileHover={{ scale: 1.2 }}
+          whileTap={{ scale: 0.9 }}
+          transition={{ type: "spring", stiffness: 700, damping: 10 }}
+          className="programming_icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg" />
         </motion.div>
       </div>
     </section>

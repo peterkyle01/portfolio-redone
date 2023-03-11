@@ -6,7 +6,6 @@ const Education = lazy(() => import("../Education/Education"));
 const Experience = lazy(() => import("../Experience/Experience"));
 const Skills = lazy(() => import("../Skills/Skills"));
 const About = lazy(() => import("../About/About"));
-const Contacts = lazy(()=> import("../Contacts/Contacts"))
 import "./home.css"
 
 function Home() {
@@ -17,16 +16,16 @@ function Home() {
           <p className="p_one">
             Hello,my name is Peter <br /> K.Mwangi
           </p>
-          <p className="p_two">Software Developer</p>
+          <p className="p_two">Web Developer</p>
           <div className="btn_wrapper">
             <NavLink to="/projects">
               <button className="projects_btn">Projects</button>
             </NavLink>
             <a
-              aria-label="Linkedin"
-              href="https://www.linkedin.com/in/peter-mwangi-08a312265/"
+              aria-label="Resume"
+              href="https://drive.google.com/file/d/1ZUqW1y5sWrHLPRVC__toO11k5ONT_wwV/view?usp=sharing"
               target="_blank">
-              <button className="linkedIn_btn">LinkedIn</button>
+              <button className="resume_btn">Resume</button>
             </a>
           </div>
         </div>
@@ -54,7 +53,6 @@ function Home() {
         <Experience />
         <Skills />
         <About />
-        <Contacts />
       </Suspense>
     </main>
   );
